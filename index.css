@@ -7,7 +7,7 @@ body, html {
 }
 
 .box-container {
-  padding: 10px;
+  padding: 15px;
   height: auto;
   background: #ffffff;
   border-radius: 4px 4px 0 0;
@@ -17,6 +17,10 @@ body, html {
 
 ul {
   list-style: none; /* Remove default bullets */
+}
+
+h2 {
+  font-size: 28px;
 }
 
 ul li::before {
@@ -39,7 +43,7 @@ ul li::before {
   align-items: center;
   background-color: var(--page-blue);
   color: white;
-  padding: 10px;
+  padding: 20px;
 }
 
 .bottom-color-border:after {
@@ -52,7 +56,7 @@ ul li::before {
 }
 
 .left-color-border {
-  border-left: 3px solid var(--page-blue);
+  border-left: 4px solid var(--page-blue);
   padding-left: 10px
 }
 
@@ -72,14 +76,14 @@ ul li::before {
 }
 
 .right-header span {
-  font-size: 24px;
+  font-size: 20px;
   display: block;
   padding: 2px;
   text-align: right;
 }
 
 .profile-part p {
-  line-height: 48px;
+  line-height: 36px;
   font-size: 24px;
   margin-bottom: 4px;
   margin-top: 4px;
@@ -101,31 +105,31 @@ ul li::before {
 
 .education-part h3 {
   margin-top: 5px;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .education-part span {
   display: block;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 18px;
-  margin-bottom: 18px;
+  margin-bottom: 26px;
 }
 
 .skill-part h3 {
   margin-top: 5px;
-  margin-bottom: 4px;
+  margin-bottom: 5px;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .skill-part span {
   display: block;
-  font-weight: 300;
+  font-weight: 400;
   margin-left: 10px;
   font-size: 18px;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 .work-exp-container {
@@ -143,18 +147,19 @@ ul li::before {
 .works-header h3 {
   margin-top: 2px;
   margin-bottom: 2px;
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: 700;
 }
 
 .works-header span {
   margin-top: 2px;
   margin-bottom: 2px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .work-content {
-  background-color: #F5F5F5;
-  padding-bottom: 20px;
+  background-color: #f5f5f5;
+  padding: 15px;
 }
 
 .work-content h3 {
@@ -177,10 +182,6 @@ ul li::before {
   margin-bottom: 30px;
 }
 
-.mt-400 {
-  margin-top: 400px;
-}
-
 .block {
   display: block;
 }
@@ -193,7 +194,11 @@ ul li::before {
   margin-top: 20px;
 }
 
+.mb-20 {
+  margin-bottom: 20px;
+}
+
 .personal-works ul li {
-  margin-bottom: 3px;
-  margin-top: 3px;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
