@@ -170,8 +170,8 @@ ul li::before {
   padding-left: 10px;
 }
 .work-content ul li, span, .awards ul li, .hobbies ul li {
-  font-size: 18px;
-  margin-bottom: 4px;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .mt-30 {
@@ -194,11 +194,12 @@ ul li::before {
   margin-top: 20px;
 }
 
-.mb-20 {
-  margin-bottom: 20px;
+.mb-25 {
+  margin-bottom: 25px;
 }
 
 .personal-works ul li {
-  margin-bottom: 5px;
+  font-size: 20px;
+  margin-bottom: 10px;
   margin-top: 5px;
 }
