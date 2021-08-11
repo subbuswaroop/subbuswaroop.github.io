@@ -1,0 +1,197 @@
+:root {
+  --page-blue: #0047AB;
+}
+
+body, html {
+  font-family: 'Roboto', sans-serif;
+}
+
+.box-container {
+  padding: 10px;
+  height: auto;
+  background: #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: var(--page-blue); /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.resume-wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--page-blue);
+  color: white;
+  padding: 10px;
+}
+
+.bottom-color-border:after {
+  display: block;
+  width: 20%;
+  height: 3px;
+  margin-top: 5px;
+  background: var(--page-blue);
+  content: "";
+}
+
+.left-color-border {
+  border-left: 3px solid var(--page-blue);
+  padding-left: 10px
+}
+
+.left-header {
+  text-align: left;
+}
+
+.left-header h2 {
+  font-weight: 900;
+  font-size: 28px;
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+
+.left-header span {
+  font-size: 14px;
+}
+
+.right-header span {
+  font-size: 14px;
+  display: block;
+  padding: 2px;
+  text-align: right;
+}
+
+.profile-part p {
+  line-height: 26px;
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+
+.education-skills-content, .education-skills-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.education-skills-heading h2 {
+  width: 45%;
+  padding: 0 10px;
+}
+
+.education-skills-content div {
+  width: 45%;
+}
+
+.education-part h3 {
+  margin-top: 5px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.education-part span {
+  display: block;
+  font-weight: 300;
+  font-size: 13px;
+  margin-bottom: 18px;
+}
+
+.skill-part h3 {
+  margin-top: 5px;
+  margin-bottom: 4px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.skill-part span {
+  display: block;
+  font-weight: 300;
+  margin-left: 10px;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.work-exp-container {
+  margin-top: 30px;
+}
+
+.works-header {
+  background-color: var(--page-blue);
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.works-header h3 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-size: 15px;
+}
+
+.works-header span {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-size: 13px;
+}
+
+.work-content {
+  background-color: #F5F5F5;
+}
+
+.work-content h3 {
+  font-size: 15px;
+  margin-top: 0px;
+  margin-bottom: 4px;
+  padding-top: 14px;
+  padding-left: 10px;
+}
+.work-content ul li, span, .awards ul li, .hobbies ul li {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mt-400 {
+  margin-top: 400px;
+}
+
+.block {
+  display: block;
+}
+
+.ml-30 {
+  margin-left: 30px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.personal-works ul li {
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
