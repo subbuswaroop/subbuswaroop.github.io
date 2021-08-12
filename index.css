@@ -20,7 +20,9 @@ ul {
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 ul li::before {
@@ -44,6 +46,7 @@ ul li::before {
   background-color: var(--page-blue);
   color: white;
   padding: 20px;
+  border-radius: 4px 4px 0 0;
 }
 
 .bottom-color-border:after {
@@ -67,8 +70,6 @@ ul li::before {
 .left-header h2 {
   font-weight: 900;
   font-size: 38px;
-  margin-bottom: 5px;
-  margin-top: 0px;
 }
 
 .left-header span {
@@ -97,7 +98,6 @@ ul li::before {
 .education-skills-heading h2 {
   width: 45%;
   padding: 0 10px;
-  margin-top: 10px;
 }
 
 .education-part, .skill-part {
