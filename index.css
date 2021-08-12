@@ -100,8 +100,14 @@ ul li::before {
   margin-top: 10px;
 }
 
-.education-skills-content div {
+.education-part, .skill-part {
   width: 45%;
+}
+
+.education-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .education-part h3 {
