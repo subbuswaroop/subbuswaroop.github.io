@@ -166,7 +166,7 @@ ul li::before {
 
 .work-content {
   background-color: #f5f5f5;
-  padding: 15px;
+  padding: 10px;
 }
 
 .work-content h3 {
@@ -179,6 +179,7 @@ ul li::before {
 .work-content ul li, span, .awards ul li, .hobbies ul li {
   font-size: 20px;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .mb-15 {
@@ -212,5 +213,5 @@ ul li::before {
 .personal-works ul li {
   font-size: 20px;
   margin-bottom: 10px;
-  margin-top: 5px;
+  margin-top: 10px;
 }
